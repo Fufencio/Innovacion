@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f6f9;
+  color: #333;
+}
+
+.nav-simulada {
+  background-color: #011640;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 0.95rem;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+  background: white;
+  padding: 40px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.encabezado {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  border-bottom: 2px solid #b11e22;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+.logo img {
+  height: 100px;
+  max-width: 100%;
+}
+
+.titulo {
+  flex: 1;
+  min-width: 250px;
+}
+
+.titulo h1 {
+  font-size: 1.8rem;
+  color: #011640;
+  margin-bottom: 5px;
+}
+
+.titulo h2 {
+  font-size: 1.2rem;
+  color: #b11e22;
+  margin-bottom: 10px;
+}
+
+.titulo h3 {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.titulo p {
+  margin: 3px 0;
+  font-size: 0.95rem;
+}
+
+main {
+  line-height: 1.6;
+}
+
+.seccion {
+  margin-bottom: 30px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-left: 4px solid #b11e22;
+  border-radius: 5px;
+}
+
+.seccion h2, .seccion h3 {
+  color: #011640;
+  margin-bottom: 10px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 6px;
+}
+
+.imagen {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.imagen img {
+  width: 90%;
+  max-width: 600px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.caption {
+  font-style: italic;
+  font-size: 0.9rem;
+  margin-top: 10px;
+  color: #555;
+}
+
+footer {
+  text-align: center;
+  padding-top: 20px;
+  margin-top: 40px;
+  font-size: 0.85rem;
+  color: #888;
+  border-top: 1px solid #ccc;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 30px 0;
+}
+
+@media (max-width: 768px) {
+  .encabezado {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .logo img {
+    height: 80px;
+    margin-bottom: 15px;
+  }
+
+  .titulo h1 {
+    font-size: 1.5rem;
+  }
+
+  .titulo h2, .titulo h3 {
+    font-size: 1rem;
+  }
+
+  .container {
+    padding: 20px;
+  }
+
+  .imagen img {
+    width: 100%;
+  }
+
+  .seccion {
+    padding: 15px;
+  }
+}
